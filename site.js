@@ -127,7 +127,7 @@ function typeEffect() {
     typeSpeed = 150; // Natural typing speed
   }
 
-  // If word is complete
+  // When word is complete
   if (!isDeleting && charIndex === currentPhrase.length) {
     isDeleting = true;
     typeSpeed = 2000; // Pause at the end of a phrase
@@ -142,5 +142,6 @@ function typeEffect() {
 
 // Start the effect
 document.addEventListener("DOMContentLoaded", typeEffect);
+
 
 
