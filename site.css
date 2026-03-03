@@ -126,23 +126,6 @@ h2 {color: var(--bg-secondary);}
   50% { transform: translateY(-15px); }
 }
 
-/*.profile-image {
-  width: 200px;
-  border-radius: 50%;
-  animation: bounce 1s infinite alternate;
-  border: 3px solid var(--bg-secondary) ;
-}
-
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(-10px);
-  }
-}*/
-
 .division {
   width: 100%;
   height: 2px;
@@ -600,15 +583,16 @@ btn
 }
 
 #typing-text {
-  border-right: 3px solid var(--secondary-color); /* Use your Indigo color */
+  border-right: 3px solid var(--secondary-color); 
   padding-right: 5px;
-  display: inline-block; /* Keeps the cursor next to the text */
+  display: inline-block; 
   white-space: nowrap;
   animation: blink 0.7s infinite;
-  min-height: 1.2em; /* Prevents layout jump when text is deleted */
+  min-height: 1.2em; 
 }
 
 @keyframes blink {
   0%, 100% { border-color: transparent; }
   50% { border-color: var(--secondary-color); }
 }
+
