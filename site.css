@@ -2,9 +2,9 @@
 
 
 :root {
-  /* Clean & Professional Palette */
-  --primary-color: white;   /* Very light cool gray background */ 
-  --secondary-color: #00356b;     /* Electric Indigo (Replaces Gold) */
+ 
+  --primary-color: white;   
+  --secondary-color: #1035ac;     
   --bg-primary: #ffffff;          /* Navbar stays pure white */
   --text-color: #0f172a;          /* Deep Slate for readability */
   --text-color-two: #475569;      /* Muted slate for secondary text */
@@ -117,7 +117,7 @@ h2 {color: var(--bg-secondary);}
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid var(--secondary-color);
-  box-shadow: 0 0 20px #1e293b ;
+  box-shadow: 0 0 20px #f0e68c ;
   animation: float 4s ease-in-out infinite;
 }
 
@@ -595,5 +595,6 @@ btn
   0%, 100% { border-color: transparent; }
   50% { border-color: var(--secondary-color); }
 }
+
 
 
