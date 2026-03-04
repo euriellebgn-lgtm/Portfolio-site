@@ -3,7 +3,7 @@
 
 :root {
   /* Clean & Professional Palette */
-  --primary-color:  #4a6378;   /* Very light cool gray background */ 
+  --primary-color: white;   /* Very light cool gray background */ 
   --secondary-color: #00356b;     /* Electric Indigo (Replaces Gold) */
   --bg-primary: #ffffff;          /* Navbar stays pure white */
   --text-color: #0f172a;          /* Deep Slate for readability */
@@ -595,4 +595,5 @@ btn
   0%, 100% { border-color: transparent; }
   50% { border-color: var(--secondary-color); }
 }
+
 
